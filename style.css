@@ -45,7 +45,7 @@ body {
     text-decoration: none;
     color: white;
     margin-top: -120px;
-    margin: 40px 0px 10px calc((100% - 850px) * 0.5);
+    text-align: center;
     position: relative;
 }
 
