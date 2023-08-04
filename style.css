@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "RetroCycle";
+    src: url("retro.ttf") format("truetype"),
+         url("retro.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: "RetroCycle";
+    /* background image setup */
+    background-image: url('images/space.png');
+    /* background position & size */
+    background-size: cover;
+    background-position: 100.03%;
+    /* disable multiple backgrounds */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 120px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-top: 250px;
+}
+
+.description {
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-top: -120px;
+}
+
+.logo {
+    left: 55px;
+    top: 55px;
+    position: absolute;
+}
+
+.description-left {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin-top: -120px;
+    margin: 40px 0px 10px calc((100% - 850px) * 0.5);
+    position: relative;
+}
+
+.frame-image {
+    border: 9px solid white;
+    border-radius: 100%;
+}
+
+.image-right {
+    position: absolute;
+    margin-left: calc((100% - -225px) * 0.5);
+
+}
+
+.download {
+    position: relative;
+    margin-left: calc((100% - 171.7px) * 0.5);}
