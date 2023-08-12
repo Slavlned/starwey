@@ -1,5 +1,5 @@
 function countdown() {
-    var dateEnd = new Date("2023-08-12 19:50:00"),
+    var dateEnd = new Date("2023-08-12 20:00:00"),
     dateNow = new Date(),
     date = Math.floor((dateEnd.getTime() - dateNow.getTime()) / 1000);
 
