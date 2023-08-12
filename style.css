@@ -36,6 +36,16 @@ body {
     margin-right: auto;
 }
 
+.descriptioncountdown {
+    font-size: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    margin-top: -5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .logo {
     left: 55px;
     top: 55px;
@@ -91,6 +101,16 @@ body {
     text-align: center;    
 }
 
+.countdown {
+    display: flex;
+    justify-content: center;
+
+    span {
+        display: block;
+    }
+}
+
+
 @media (max-width: 1200px){
     .description-left {
         font-size: 17px;
@@ -103,6 +123,10 @@ body {
         margin-left: auto;
         margin-right: auto;                 
     }
+    .descriptioncountdown {
+        font-size: 30px;
+    }
+
     .title {
         font-size: 90px;
         padding-left: auto;        
@@ -132,4 +156,8 @@ body {
         margin-top: 70px;  
     }
     
+}
+
+.container {
+    margin-top: 500px;
 }
