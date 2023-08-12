@@ -22,6 +22,8 @@ function countdown() {
 
     if (dateTemp < 10) dateTemp = '0' + dateLeft;
     document.querySelector("#seconds span").innerHTML = dateLeft;    
+
+    if (dateEnd.getTime() >= dateNow.getTime()) window.location.href = "comingsoon.html";
 }
 
 var run = setInterval(countdown, 1000);
